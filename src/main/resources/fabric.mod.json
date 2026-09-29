@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "smartdoubledoors",
+  "version": "${version}",
+  "name": "Smart Double Doors",
+  "description": "Opening one door of a double door pair automatically opens the other. Simple and seamless.",
+  "authors": [
+    "Antarip Nandi"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/smart-double-doors",
+    "sources": "https://github.com/antaripnandi/smart-double-doors",
+    "issues": "https://github.com/antaripnandi/smart-double-doors/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/smartdoubledoors/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.antarip.smartdoubledoors.SmartDoubleDoorsMod"
+    ]
+  },
+  "mixins": [
+    "smartdoubledoors.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "${minecraft_version}"
+  }
+}

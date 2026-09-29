@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.antarip.smartdoubledoors.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DoorBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
