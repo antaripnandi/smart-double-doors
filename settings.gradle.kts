@@ -22,6 +22,10 @@ stonecutter {
             version(version, version)
         }
 
+        mc("1.20.1")
+        mc("1.20.6")
+        mc("1.21.11")
+        mc("26.1.2")
         mc("26.2")
         mc("26.3")
 
